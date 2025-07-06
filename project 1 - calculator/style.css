@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.page-container {
+    min-height: 100vh;
+    background-color: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calulator-container {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    color: white;
+    text-align: right;
+    outline: none;
+    font-size: 45px;
+    width: 60px;
+    padding: 6px;
+    margin-top: 20px;
+    /* height:80px; */
+    /* font-size: 48px; */
+}
+
+.row {
+    margin-top: 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.row button {
+    border-width: 0px;
+    border-radius: 6px;
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(58, 68, 82, 0.3);
+    vertical-align: middle;
+}
+
+.row .result {
+    width: 145px;
+    color: #6ac1fb;
+    background-color: #6ac1fb;
+    color: #000;
+    /* padding: 0; */
+    font-size: 32px;    
+}
+
+form .row-1 button {
+    color: #6ac1fb;
+}
+
+form .operator {
+    color: #6ac1fb;
+}
